@@ -19,7 +19,7 @@ author: Marianne Peña Wust
 # --- List of links in the navigation bar --- #
 ###############################################
 
-#navbar-links:
+navbar-links:
  Research: "research"
   #Resources:
    # - Beautiful Jekyll: "https://beautifuljekyll.com"
