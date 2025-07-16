@@ -3,4 +3,38 @@ layout: home
 title: Marianne Peña Wust
 description: Third-year Statistics student.
 ---
-<img src=".\assets\img\me square.png" alt="Marianne smiling at the camera">
+
+<style>
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .left-column {
+    flex: 1;
+    padding: 10px;
+    max-width: 300px;
+  }
+
+  .right-column {
+    flex: 2;
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 2rem; /* Adjust the size to your liking */
+    margin-bottom: 10px;
+  }
+</style>
+
+<div class="container">
+  <div class="left-column">
+    <img src="./assets/img/me square.png" alt="Marianne smiling at the camera" style="width:100%; border-radius:8px;">
+  </div>
+  <div class="right-column">
+    <h1>Marianne Peña Wust</h1>
+    <p>Third-year Statistics student.</p>
+  </div>
+</div>
